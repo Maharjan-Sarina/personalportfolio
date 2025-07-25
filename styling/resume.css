@@ -1,0 +1,144 @@
+/* for nav */
+.nav{
+    width: 100%;
+    Height: 100px;
+    background:rgb(28, 23, 46);
+}
+/* for menu */
+.menu{
+  width: 100%;
+  height: auto;
+}
+.menu ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+.menu ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: center;
+    margin: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #F8F8F8;
+}
+
+.GIT ul{
+    float:right;
+    margin-right: 10px;
+    margin-top:-5px;
+}
+
+.GIT ul li{
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    align-self: right;
+    font-family: 'Times New Roman', Times, serif;
+    border: solid 2px #F8F8F8;
+    padding: 15px;
+    border-radius: 10px;
+}
+.GIT ul li a{
+    text-decoration: none;
+    color: #F8F8F8;
+}
+/* start of intro */
+.Intro{
+  height: auto;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.Intro h1{
+    font-size: 60px;
+    font-weight: 500;
+    color:rgb(28, 23, 46);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.Intro span{
+    font-size:82px;
+    font-weight: 1000;
+    font-weight: bolder;
+}
+.Intro h2{
+    font-size: 40px;
+    font-weight: 200;
+    color:#F8F8F8;
+    background: rgb(28, 23, 46);
+    margin-top: -50px;
+    letter-spacing: 8px;
+    display: inline-block;
+}
+.Box{
+    margin-top: 20px;
+}
+
+.Resume{
+    font-weight: bold;
+    display:inline-block;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    color:rgb(28, 23, 46);
+    padding:10px 40px;
+    margin:0 40px 0 0;
+}
+.socials{
+    margin-top: 30px;
+}
+/* .socials li{
+    text-decoration: none;
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    align-self: center;
+    float:left;
+    margin: 5px;
+}
+.icons{
+    width:30px;
+    height:30px;} */
+
+/* for expertise */
+.component:hover{
+    transform: translateY(5px);
+}
+
+/* For Experience */
+#Experience{
+    height: auto;
+}
+.Exp{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr)); gap: 40px;
+}
+
+.indexp{
+    background: #F8F8F8;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 10px 20px rgba(88, 88, 88, 0.9);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.indexp:hover{
+    transform: translateY(-10px);
+}
+
+#Qualification{
+    background-color: rgb(28, 23, 46);
+}
+
+ 
+/* .edu {
+    content:"";
+    display: inline-block;
+    background-size: contain;
+    float: left;
+    margin-right: 10px;} */
+
